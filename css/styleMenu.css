@@ -29,7 +29,6 @@ body{
 
 #bg-section{
     background: url(https://unsplash.com/photos/g_V2rt6iG7A/download?force=true);
-    background-color: rgb(47, 73, 64);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -91,7 +90,9 @@ body{
 .info h1, h2{
     margin: 0;
 }
-
 .section-menu{
     height: 800px;
+    color: black;
 }
+
+
