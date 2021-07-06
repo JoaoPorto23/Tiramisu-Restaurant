@@ -13,6 +13,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Big+Shoulders+Display:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/366dde4adb.js" crossorigin="anonymous"></script>
     
 </head>
 <body>
@@ -37,11 +39,284 @@
         </div>
     </section>
     <main class="section-menu">
-        <div class="card">
-            
-        </div>
+        <section id="menu">
+            <h1 class="menu-title">Menu</h1>
+            <button class="fixed-btn"><i id="cart-font" class="fas fa-shopping-cart"></i></button>
+            <!-- Tropical Salad -->
+            <div class="card-food">
+                <div class="image-food">
+                    <img src="./img/TropicalSalad.jpg">
+                </div>
+                <div class="info-food">
+                    <div class="title-info-food">
+                        <h3>Tropical Salad</h3>
+                    </div>
+                    <div class="price-info-food">
+                        <h2>45,00</h2>
+                    </div>
+                    <div class="text-info-food">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quis aperiam ut nulla deserunt quam excepturi quisquam, exercitationem nam, pariatur voluptates ipsa debitis reiciendis laborum magni cumque rerum facilis adipisci?
+                    </div>
+                    <div class="actions-info-card">
+                        <i id="heart" class="fas fa-heart" onclick="heartClick()"></i>
+                        <button id="button-cart"><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                </div>
+            </div>
+            <!-- Caeser Salad -->
+            <div class="card-food">
+                <div class="image-food">
+                    <img src="./img/CaeserSalad.jpg">
+                </div>
+                <div class="info-food">
+                    <div class="title-info-food">
+                        <h3>Caeser Salad</h3>
+                    </div>
+                    <div class="price-info-food">
+                        <h2>45,00</h2>
+                    </div>
+                    <div class="text-info-food">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quis aperiam ut nulla deserunt quam excepturi quisquam, exercitationem nam, pariatur voluptates ipsa debitis reiciendis laborum magni cumque rerum facilis adipisci?
+                    </div>
+                    <div class="actions-info-card">
+                        <i id="heart2" class="fas fa-heart" onclick="heartClick2()"></i>
+                        <button id="button-cart"><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                </div>
+            </div>
+            <!-- Vegan Salad -->
+            <div class="card-food">
+                <div class="image-food">
+                    <img src="./img/VeganSalad.jpg">
+                </div>
+                <div class="info-food">
+                    <div class="title-info-food">
+                        <h3>Vegan Salad</h3>
+                    </div>
+                    <div class="price-info-food">
+                        <h2>45,00</h2>
+                    </div>
+                    <div class="text-info-food">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quis aperiam ut nulla deserunt quam excepturi quisquam, exercitationem nam, pariatur voluptates ipsa debitis reiciendis laborum magni cumque rerum facilis adipisci?
+                    </div>
+                    <div class="actions-info-card">
+                        <i id="heart3" class="fas fa-heart" onclick="heartClick3()"></i>
+                        <button id="button-cart"><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                </div>
+            </div>
+            <!-- Spring Pasta -->
+            <div class="card-food">
+                <div class="image-food">
+                    <img src="./img/SpringPasta.jpg">
+                </div>
+                <div class="info-food">
+                    <div class="title-info-food">
+                        <h3>Spring Pasta</h3>
+                    </div>
+                    <div class="price-info-food">
+                        <h2>45,00</h2>
+                    </div>
+                    <div class="text-info-food">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quis aperiam ut nulla deserunt quam excepturi quisquam, exercitationem nam, pariatur voluptates ipsa debitis reiciendis laborum magni cumque rerum facilis adipisci?
+                    </div>
+                    <div class="actions-info-card">
+                        <i id="heart4" class="fas fa-heart" onclick="heartClick4()"></i>
+                        <button id="button-cart"><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                </div>
+            </div>
+            <!-- Pasta n' Shrimp -->
+            <div class="card-food">
+                <div class="image-food">
+                    <img src="./img/PastaNShrimp.jpg">
+                </div>
+                <div class="info-food">
+                    <div class="title-info-food">
+                        <h3>Pasta n' Shrimp</h3>
+                    </div>
+                    <div class="price-info-food">
+                        <h2>45,00</h2>
+                    </div>
+                    <div class="text-info-food">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quis aperiam ut nulla deserunt quam excepturi quisquam, exercitationem nam, pariatur voluptates ipsa debitis reiciendis laborum magni cumque rerum facilis adipisci?
+                    </div>
+                    <div class="actions-info-card">
+                        <i id="heart5" class="fas fa-heart" onclick="heartClick5()"></i>
+                        <button id="button-cart"><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                </div>
+            </div>
+            <!-- Tuscany Pasta -->
+            <div class="card-food">
+                <div class="image-food">
+                    <img src="./img/TuscanyPasta.jpg">
+                </div>
+                <div class="info-food">
+                    <div class="title-info-food">
+                        <h3>Tuscany Pasta</h3>
+                    </div>
+                    <div class="price-info-food">
+                        <h2>45,00</h2>
+                    </div>
+                    <div class="text-info-food">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quis aperiam ut nulla deserunt quam excepturi quisquam, exercitationem nam, pariatur voluptates ipsa debitis reiciendis laborum magni cumque rerum facilis adipisci?
+                    </div>
+                    <div class="actions-info-card">
+                        <i id="heart6" class="fas fa-heart" onclick="heartClick6()"></i>
+                        <button id="button-cart"><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                </div>
+            </div>
+            <!-- Orange Chicken -->
+            <div class="card-food">
+                <div class="image-food">
+                    <img src="./img/OrangeChicken.jpg">
+                </div>
+                <div class="info-food">
+                    <div class="title-info-food">
+                        <h3>Orange Chicken</h3>
+                    </div>
+                    <div class="price-info-food">
+                        <h2>45,00</h2>
+                    </div>
+                    <div class="text-info-food">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quis aperiam ut nulla deserunt quam excepturi quisquam, exercitationem nam, pariatur voluptates ipsa debitis reiciendis laborum magni cumque rerum facilis adipisci?
+                    </div>
+                    <div class="actions-info-card">
+                        <i id="heart7" class="fas fa-heart" onclick="heartClick7()"></i>
+                        <button id="button-cart"><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                </div>
+            </div>
+            <!-- BBQ Steak -->
+            <div class="card-food">
+                <div class="image-food">
+                    <img src="./img/BBQSteak.jpg">
+                </div>
+                <div class="info-food">
+                    <div class="title-info-food">
+                        <h3>BBQ Steak</h3>
+                    </div>
+                    <div class="price-info-food">
+                        <h2>45,00</h2>
+                    </div>
+                    <div class="text-info-food">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quis aperiam ut nulla deserunt quam excepturi quisquam, exercitationem nam, pariatur voluptates ipsa debitis reiciendis laborum magni cumque rerum facilis adipisci?
+                    </div>
+                    <div class="actions-info-card">
+                        <i id="heart8" class="fas fa-heart" onclick="heartClick8()"></i>
+                        <button id="button-cart"><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                </div>
+            </div>
+            <!-- Easy Salmon -->
+            <div class="card-food">
+                <div class="image-food">
+                    <img src="./img/EasySalmon.jpg">
+                </div>
+                <div class="info-food">
+                    <div class="title-info-food">
+                        <h3>Easy Salmon</h3>
+                    </div>
+                    <div class="price-info-food">
+                        <h2>45,00</h2>
+                    </div>
+                    <div class="text-info-food">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quis aperiam ut nulla deserunt quam excepturi quisquam, exercitationem nam, pariatur voluptates ipsa debitis reiciendis laborum magni cumque rerum facilis adipisci?
+                    </div>
+                    <div class="actions-info-card">
+                        <i id="heart9" class="fas fa-heart" onclick="heartClick9()"></i>
+                        <button id="button-cart"><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                </div>
+            </div>
+            <!-- Red Mountains -->
+            <div class="card-food">
+                <div class="image-food">
+                    <img src="https://unsplash.com/photos/6AGlB0wKueg/download?force=true">
+                </div>
+                <div class="info-food">
+                    <div class="title-info-food">
+                        <h3>Red Mountains</h3>
+                    </div>
+                    <div class="price-info-food">
+                        <h2>45,00</h2>
+                    </div>
+                    <div class="text-info-food">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quis aperiam ut nulla deserunt quam excepturi quisquam, exercitationem nam, pariatur voluptates ipsa debitis reiciendis laborum magni cumque rerum facilis adipisci?
+                    </div>
+                    <div class="actions-info-card">
+                        <i id="heart10" class="fas fa-heart" onclick="heartClick10()"></i>
+                        <button id="button-cart"><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                </div>
+            </div>
+            <!-- Musketeers -->
+            <div class="card-food">
+                <div class="image-food">
+                    <img src="https://unsplash.com/photos/X5u6snvBCf0/download?force=true">
+                </div>
+                <div class="info-food">
+                    <div class="title-info-food">
+                        <h3>Musketeers</h3>
+                    </div>
+                    <div class="price-info-food">
+                        <h2>45,00</h2>
+                    </div>
+                    <div class="text-info-food">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quis aperiam ut nulla deserunt quam excepturi quisquam, exercitationem nam, pariatur voluptates ipsa debitis reiciendis laborum magni cumque rerum facilis adipisci?
+                    </div>
+                    <div class="actions-info-card">
+                        <i id="heart11" class="fas fa-heart" onclick="heartClick11()"></i>
+                        <button id="button-cart"><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                </div>
+            </div>
+            <!-- Sugar Land -->
+            <div class="card-food">
+                <div class="image-food">
+                    <img src="https://unsplash.com/photos/ssf2KpGCdmo/download?force=true">
+                </div>
+                <div class="info-food">
+                    <div class="title-info-food">
+                        <h3>Sugar Land</h3>
+                    </div>
+                    <div class="price-info-food">
+                        <h2>45,00</h2>
+                    </div>
+                    <div class="text-info-food">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quis aperiam ut nulla deserunt quam excepturi quisquam, exercitationem nam, pariatur voluptates ipsa debitis reiciendis laborum magni cumque rerum facilis adipisci?
+                    </div>
+                    <div class="actions-info-card">
+                        <i id="heart12" class="fas fa-heart" onclick="heartClick12()"></i>
+                        <button id="button-cart"><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+    <!-- <footer class="footer">
+        <div class="left-footer"></div>
+            <h1><img src="./img/Logo2.png"></h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam, animi aperiam sed error necessitatibus, illum quaerat ullam minima dolor autem tempora nostrum corporis vitae a. Voluptates nam dicta sequi odit?</p>
+        </div>
+        <ul class="right-footer">
+            <li>
+                <h2>Explore</h2>
+                <ul class="box">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./menu.html">Menu</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </li>
+            <div class="b-footer">
+                <p>All Right Reserved by &copy; Brathuka's 2021</p>
+            </div>
+        </ul>
         
+    </footer> -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<script type="text/javascript"></script>
 </body>
