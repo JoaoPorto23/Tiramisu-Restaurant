@@ -13,7 +13,6 @@
     
   }
 
-
 body{
     box-sizing: border-box;
     color: #fff;
@@ -24,15 +23,16 @@ body{
     padding: 0;
 }
 :root{
-    
+    --dark-orange: #da7f08;
+    --orange: #eb9b33;
 }
 
 #bg-section{
-    background: url(https://unsplash.com/photos/g_V2rt6iG7A/download?force=true);
+    background-image: url("/img/BGSection.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 700px;
+    height: 600px;
 }
 /* //Header// */
 #header{
@@ -76,7 +76,7 @@ body{
     border-bottom: 1px groove #fff;
     cursor:pointer;
     transition: 0.6s;
-    color: rgb(235, 155, 51);
+    color: var(--orange);
     text-decoration: none;
     
 }
@@ -91,8 +91,109 @@ body{
     margin: 0;
 }
 .section-menu{
-    height: 800px;
+    height: 4100px;
     color: black;
 }
+#menu{
+    align-items: center;
+}
+.menu-title{
+    text-align: center;
+}
+/*Card Menu*/
+.card-food{
+    margin:0 auto;
+    margin-top:30px;
+    display:flex;
+    flex-direction: row;
+    width:720px;
+    height: 300px;
+    -webkit-box-shadow: 5px 5px 20px 8px rgba(76,76,76,0.49); 
+    box-shadow: 5px 5px 20px 8px rgba(76,76,76,0.49);
+}
+.image-food{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    height:100%;
+}
+.image-food img{
+    width: 340px;
+    height: 300px;
+    object-fit: cover;
+}
+.info-food{
+    display:flex;
+    flex-direction: column;
+    width:50%;
+    height: 100%;
+}
+.title-info-food{
+    margin-right: 25px;
+    margin-left: 15px;
+}
+.title-info-food h3{
+    text-align: center;
+    margin-bottom: 0;
+    border-bottom: 0.5px solid grey;
+}
+.price-info-food h2{
+    text-align: center;
+    font-size: 32px;
+}
+.actions-info-card>i:hover{
+    cursor: pointer;
+}
+button{
+    width: 75px;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+.button-car i{
+    font-size: 18px;
+}
+.text-info-food p{
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+.actions-info-card{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    justify-content: space-around;
+}
 
-
+.fixed-btn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: fixed;
+    margin: auto;
+    left: 95%;
+    top: 91%;
+    background-color: var(--dark-orange);
+    border: 1px solid var(--dark-orange);
+}
+.red-heart{
+    color:red;
+    transition: 0.6s;
+    transform: scale(1.1);
+}
+.fixed-btn i{
+    color: #fff;
+    font-size: 19px;
+}
+/* footer{
+    background: var(--dark-orange);
+    width: 100%;
+    height: 100px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+} */

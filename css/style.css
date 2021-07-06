@@ -1,6 +1,6 @@
 body{
     box-sizing: border-box;
-    background: url(https://unsplash.com/photos/Orz90t6o0e4/download?force=true);
+    background: url("/img/BG.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -12,7 +12,8 @@ body{
     padding: 0;
 }
 :root{
-    
+    --dark-orange: #da7f08;
+    --orange: #eb9b33;
 }
 /* //Header// */
 #header{
