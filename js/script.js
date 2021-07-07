@@ -1,11 +1,12 @@
-var coracao2=document.querySelector("#heart2");
 
+/*User Favorite Function*/
 function heartClick(){
-var coracao=document.querySelector("#heart");
+    var coracao=document.querySelector("#heart");
     coracao.classList.toggle("red-heart")  
 }
 function heartClick2(){
-        coracao2.classList.toggle("red-heart")  
+    var coracao2=document.querySelector("#heart2");
+    coracao2.classList.toggle("red-heart")  
 }
 function heartClick3(){
     var coracao3=document.querySelector("#heart3");
@@ -35,7 +36,6 @@ function heartClick9(){
     var coracao9=document.querySelector("#heart9");
         coracao9.classList.toggle("red-heart")  
 }
-
 function heartClick10(){
     var coracao10=document.querySelector("#heart10");
         coracao10.classList.toggle("red-heart")  
