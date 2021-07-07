@@ -19,24 +19,26 @@
 - [x] Working on CSS
 - [x] Additional Effects
 - [x] JavaScript
+- [ ] Working on Media Query
+- [ ] Buy/Cart Section
 
 ## :purple_heart: About US
 
 <table>
-  <tr display="flex">
-    <td>
+  <tr>
+    <td align="center">
       <a href="#">
         <img src="img/Capamara.png" width="100px;" alt="Gabriel Amara Photo"/><br>
         <sub>
-          <a href="https://github.com/Capamara%22%3E<b>Gabriel Amara</b></a>
+          <a href="https://github.com/Capamara%22%3E"<b>Gabriel Amara</b></a>
         </sub>
       </a>
     </td>
-    <td>
+    <td align="center">
       <a href="#">
         <img src="img/JoaoPorto23.png" width="100px;" alt="Joao Porto Photo"/><br>
         <sub>
-           <a href="https://github.com/JoaoPorto23%22%3E<b>João Porto</b></a>
+           <a href="https://github.com/JoaoPorto23%22%3E"<b>João Porto</b></a>
         </sub>
       </a>
     </td>
